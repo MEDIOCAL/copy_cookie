@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>copy cookie</title>
+    <style>
+        .wrap {
+            width: 410px;
+            padding: 10px;
+        }
+        .item {
+            margin-bottom: 10px;
+        }
+        #list-box input {
+            line-height: 32px;
+            height: 32px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            width: 160px;
+            outline: none;
+            margin-right: 5px;
+            color: #333;
+        }
+        #list-box input[type='radio'] {
+            width: 15px;
+            vertical-align: middle;
+        }
+        .del {
+            cursor: pointer;
+            color:#F56C6C;
+            font-size: 14px;
+        }
+        .opt {
+            height: 32px;
+        }
+        .opt button {
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            width: 80px;
+            background: #fff;
+            cursor: pointer;
+            outline: none;
+        }
+        .opt .add {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div id="list-box"></div>
+        <div class="opt">
+            <button id="add">ADD</button>
+            <button id="run">RUN</button>
+        </div>
+    </div>
+    <script src="./merge.js"></script>
+</body>
+</html>
